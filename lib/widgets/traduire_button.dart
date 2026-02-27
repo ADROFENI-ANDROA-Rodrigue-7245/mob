@@ -12,11 +12,11 @@ class TraduireButton extends StatelessWidget {
       onPressed: onPressed,
       color: const Color(0xFF766826), // même couleur que Generer
       height: 80,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       child: Text(
-        "Traduire en français",
+        "Traduire",
         style: GoogleFonts.inter(color: Colors.white, fontSize: 24),
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
     );
   }
 }

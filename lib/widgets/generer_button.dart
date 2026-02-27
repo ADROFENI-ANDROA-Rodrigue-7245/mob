@@ -11,11 +11,11 @@ class GenererButton extends StatelessWidget {
       onPressed: onPressed,
       color: Color(0xFF766826),
       height: 80,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       child: Text(
-        "Générer un conseil",
+        "Générer",
         style: GoogleFonts.inter(color: Colors.white, fontSize: 24),
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
     );
   }
 }
